@@ -1,4 +1,4 @@
-# my-first-devops-setup-yourname
+# my-first-devops-setup-sindhu
 Name: Sindhushri L K 
 Role: Junior Consultant – Testing
 

@@ -1,4 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <body>Hello from XOps!</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello from XOps</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #1e3c72, #2a5298); /* gradient blue */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .message-box {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 40px 60px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .message-box:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: #1e3c72;
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-box">
+        <h1>Hello from XOps!</h1>
+        <p>Your DevOps setup is up and running</p>
+    </div>
+</body>
 </html>
